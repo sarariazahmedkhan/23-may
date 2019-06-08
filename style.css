@@ -1,0 +1,242 @@
+/* Write all your CSS here */
+/* Please indent properly */
+/* Please use only lower-case letters */
+/* Your webpage should be 100% responsive!!! */
+
+body{
+    display: flex;
+}
+/* section 1 */
+#threads{
+    background-color: #3f0e40;
+    color: #dcafdd;
+    width: 20%;
+    padding-left:15px;
+}
+#threads .tk-2019 h1>i{
+    letter-spacing :53px;
+}
+#threads div{
+    display: flex;
+    flex-direction: column;
+}
+.tk-2019 div>i{
+    display: flex;
+    flex-direction:space-between;
+}
+.tk-2019 div>i{
+    margin-right: 3em
+}
+.tk-2019 h2>i{
+    color: rgb(22, 221, 22);
+    font-size: 15px
+}
+.tk-2019 h2:hover{
+    background-color: #39063a;
+    color: #ffff;
+}
+#threads .tk-2019{
+    display: flex;
+    justify-content: flex-end;
+}
+#threads button{
+    background-color: #280329;
+    border: transparent;
+    color: #ffff;
+    font-size: 1em;
+}
+#threads input{
+    background-color: #280329;
+    border: #39063a;
+    padding: 10px 0px;
+    color: #ffff;
+       
+}
+
+
+
+#threads p{
+    font-size:17px;
+    padding: 1px 0px;
+    margin:0px;
+}
+p:hover{
+    background-color: rgb(21, 121, 253);
+    color: #ffff;
+}
+#threads h3:hover{
+    color: #ffff;
+    
+}
+.msg p:nth-child(1) >i{
+    color: #17fa35;
+}
+.msg p:nth-child(2) >i{
+    color: #2bac75;}
+.msg p {
+    padding: 3px;
+    padding-right:0.8em;
+    font-size: 1.4em;
+}
+.msg li:hover{
+    background-color: #280329;
+}
+#header{
+    margin: 0px;
+    width: 100%;
+    padding-left: 20px
+}
+#header i{
+    letter-spacing: 10px;
+    color: rgb(160, 152, 152);
+}
+#header i:hover{
+    background-color: rgb(169, 169, 170);
+    color: rgb(83, 77, 77)
+}
+#header button {
+   border: 2px solid gray
+}
+#header input:hover{
+    border:1px solid rgb(14, 126, 231)
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#header button{
+    background-color: transparent;
+    border:1px solid gray;
+    padding: 1px 4px;
+
+}
+.icon{
+    margin-top: 3.6em
+}
+.icon button{
+ background-color: transparent;
+ border-radius:20px
+}
+.icon input{
+    border: 0px transparent;
+    background-color: transparent;
+;
+}
+
+
+/*section channel*/
+#channel{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px
+}
+#channel p{
+display:inline-block
+}
+.chat figure{
+    margin: 3px 9px;
+    display: flex;
+    padding-inline-start: 10px;
+    padding-block-end: 3px;
+}
+.chat figure:hover{
+    background-color: #eceaea;
+}
+#channel .div2>figure{
+    margin: 3px 9px;
+    display: flex;
+    padding-inline-start: 10px;
+    padding-block-end: 3px;
+}
+.chat li{
+    list-style: none;
+    padding: 10px 4px;
+}
+#channel .div2 {
+    margin-top: 90px;}
+
+#channel .div2 p{
+    padding:10px 40px ;
+}
+.div2 figure:hover{
+    background-color: #ece9e9;
+}
+#channel .div2 p>span{
+    border: 3px solid rgb(29, 6, 6);
+    margin-left: 13em;
+    font-size: 1em;
+    color: rgb(18, 223, 28);
+
+
+}
+div#message{
+    border: 3px solid lightgray;
+    border-radius: 5px;
+    display: flex;
+    bottom: 0;
+    margin-top: 1em;
+}
+div#message input{
+    flex:1;
+    border: none;
+    border-left: 2px solid lightgray;
+    padding-left: 5px;
+}
+#message input~i{
+    color:#61646a;
+}
+#message i{
+    margin:5px;
+    color:gray;
+    font-size: 1.2em;
+    
+}
+#channel h2{
+    margin-left: 1em
+}
+
+/*media apply*/
+
+
+@media only screen and (max-width: 600px){ 
+body{
+    display: flex;
+    flex-direction: column
+}
+#threads{
+    width: 45%;
+}
+#header h2{
+    width: 100%;
+    font-size: 20px
+}
+
+#header{
+    font-size: 10px
+}
+
+#header button{
+    background-color: transparent;
+    border:1px solid gray;
+    padding: 0.5px 2px;
+}
+
+/*galaxy S4*/
+
+@media only screen and (max-width: 360px){ 
+    body{
+        display: flex;
+        flex-direction:column;
+    }
+
+    #header{
+        display: none;
+    }
+    #channel{
+        display: none
+    }
+    #threads{
+        width: 85%;
+}
+}
