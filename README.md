@@ -4,4 +4,4 @@ Check the mockups folder and create a pixel perfect clone!
 
 **Submit your Github Repo URL and Github Pages URL via**  [this form](https://forms.gle/hpnwWht8xTLjqHnH8)
 
-#https://sarariazahmedkhan.github.io/23-may/https://sarariazahmedkhan.github.io/23-may/
+ # https://sarariazahmedkhan.github.io/23-may/
